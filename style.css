@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Courier_Prime; /* Гарнитура шрифта */
+    src: url(./Courier_Prime/CourierPrime-Bold.ttf);
+}
+
+@font-face {
+    font-family: Courier_Prime; /* Гарнитура шрифта */
+    src: url(./Courier_Prime/CourierPrime-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cirlcle {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.svg {
+    float: right;
+    margin-right: 350px;
+    margin-top: 22px;
+}
+
+.block {
+    float: right;
+    background-color: #FCF4F4;
+    width: 546px;
+    height: 910px;
+    margin-top: -40px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+aside {
+    float: right;
+}
+
+.nav {
+    height: 400px;
+    width: 545px;
+    margin-top: 40px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    
+}
+
+.text-nav {
+
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: Courier_Prime, 'CourierPrime-Regular', sans-serif;
+    width: 530px;
+    display: flex;
+    justify-content: right;
+    margin-right: 300px;
+    padding: 6px;
+}
+
+.text-nav:hover {
+    background-color: rgba(0, 255, 55, 0.3); 
+    border-radius: 5px;
+    animation: ani 5.5s forwards;
+}
+
+.icons {
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons2 {
+    margin-left: 170px;
+}
+
+.icons3 {
+    margin-left: 190px;
+}
+
+.icons4 {
+    margin-left: 130px;
+}
+.icons5 {
+    margin-left: 180px;
+}
+
+#item-nav {
+    font-family: Courier_Prime, 'CourierPrime-Bold';
+    font-weight: 700;
+    
+}
+
+.nav-2 {
+    margin-top: 50px;
+    width: 545px;
+    height: 350px;
+    font-size: 30px;
+    margin-left: 200px;
+    display: block;
+}
+
+.text-nav-2 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: Courier_Prime, 'CourierPrime-Regular', sans-serif;
+    width: 530px;
+    display: flex;
+    justify-content: right;
+    padding: 6px;
+}
+
+.text-nav-2:hover {
+    background-color: rgba(0, 255, 55, 0.3); 
+    border-radius: 5px;
+    animation: ani 5.5s forwards;
+}
+
+.main-text-aside {
+    color: #766868;
+    font-family: Courier_Prime, 'CourierPrime-Bold';
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.icons-2 {
+    margin-left: 170px;
+    display: block;
+    
+}
+
+
+.today {
+    margin-top: 20px;
+    margin-left: 500px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-icon-text {
+    vertical-align: middle;
+    margin-right: 20px;
+    
+}
+
+.hello-butt {
+    border: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 30px;
+    font-family: Courier_Prime, 'CourierPrime-Bold';
+}
+
+
+.text-task {
+    font-family: Courier_Prime, 'CourierPrime-Regular', sans-serif;
+}
+
+.hello {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hello-text {
+    font-family: Courier_Prime, 'CourierPrime-Regular', sans-serif;
+    font-size: 30px;
+    height: 100px;
+    width: 350px;
+    text-align: center;
+    margin-left: 500px;
+}
